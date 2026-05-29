@@ -9,10 +9,10 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
-  "dependencies": {
-    "react": "^19",
-    "react-dom": "^19"
-  },
+"dependencies": {
+  "react": "^19",
+  "react-dom": "^19"
+}
   "devDependencies": {
     "@types/react": "^19",
     "@types/react-dom": "^19"
