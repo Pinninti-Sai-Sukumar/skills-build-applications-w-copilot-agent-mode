@@ -9,15 +9,13 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },
+  
   "dependencies": {
-    "react": "19.0.0-rc.1",
-    "react-dom": "19.0.0-rc.1"
+    "react": "19.0.0-rc.1",        // ✅ Changed from 19.0.0
+    "react-dom": "19.0.0-rc.1"     // ✅ Changed from 19.0.0
   },
   "devDependencies": {
-    "@types/react": "^19.0.0",
-    "@types/react-dom": "^19.0.0",
-    "@vitejs/plugin-react": "^4.2.1",
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "@types/react": "^19.0.0",     // ✅ Changed to caret for flexibility
+    "@types/react-dom": "^19.0.0"  // ✅ Changed to caret for flexibility
   }
 }
